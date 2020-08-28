@@ -5,7 +5,7 @@ import logoImg from '../../assets/images/logo.svg';
 const Header = () => {
   return (
     <Top>
-      <img src={logoImg} alt="Github Explorer" />
+      <img src="https://pt.freelogodesign.org/Content/css/images/images/logo-reverse.svg" alt="Github Explorer" />
     </Top>
   );
 };
