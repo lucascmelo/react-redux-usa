@@ -2,8 +2,8 @@ import styled, { css } from 'styled-components';
 import { shade } from 'polished';
 
 export const Title = styled.h1`
-  font-size: 48px;
-  color: #bb85fc;
+  font-size: 68px;
+  color: #fff;
   max-width: 450px;
   line-height: 56px;
   margin-top: 80px;
@@ -22,8 +22,8 @@ export const Form = styled.form`
     border-radius: 5px 0 0 5px;
 
     ${(props) =>
-      props.hasError &&
-      css`
+    props.hasError &&
+    css`
         border-color: red;
       `}
     &::placeholder {

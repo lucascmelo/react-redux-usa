@@ -30,7 +30,7 @@ const Dashboard = ({ users, modalProduct }) => {
   return (
     <>
       <Header />
-      <Title>React Developer Recruitment Task</Title>
+      <Title>Hey look this!</Title>
       <Form hasError={!!inputError} onSubmit={handleSearchUser}>
         <input
           onChange={(e) => setUserField(e.target.value)}
